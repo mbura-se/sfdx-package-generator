@@ -80,20 +80,20 @@ class CodingPanel {
 'WaveRecipe',
 'WorkSkillRouting'];
 
-	private  PACKAGE_START='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n'+
+	private PACKAGE_START='<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n'+
 														'<Package xmlns="http://soap.sforce.com/2006/04/metadata">\n';
 
-	private  TYPES_START='<types>';	
-	private  TYPES_END='</types>';			
-	private  MEMBERS_START='<members>';	
-	private  MEMBERS_END='</members>';
-	private  NAME_START='<name>';	
-	private  NAME_END='</name>';
-	private  VERSION_START='<version>';	
-	private  VERSION_END='</version>';
-	private  PACKAGE_END='</Package>';
+	private TYPES_START='<types>';	
+	private TYPES_END='</types>';			
+	private MEMBERS_START='<members>';	
+	private MEMBERS_END='</members>';
+	private NAME_START='<name>';	
+	private NAME_END='</name>';
+	private VERSION_START='<version>';	
+	private VERSION_END='</version>';
+	private PACKAGE_END='</Package>';
 	private NEW_LINE ='\n';
-	private VERSION_NUM='58.0';
+	private VERSION_NUM='60.0';
 	private CHAR_TAB='\t';
 	private LOADING='*loading..';
 	private infoMsg='All metadata selected except ';
